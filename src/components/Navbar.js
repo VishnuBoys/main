@@ -56,16 +56,16 @@ export default function NavBar() {
                         }`}
                     >
                         <ul className="items-center justify-center space-y-16 md:flex md:space-x-12 md:space-y-0">
-                            <li className="text-white hover:text-indigo-200">
+                            <li className="text-white font-medium hover:text-indigo-200">
                                 <a href="/">Home</a>
                             </li>
-                            <li className="text-white hover:text-indigo-200">
+                            <li className="text-white font-medium hover:text-indigo-200">
                                 <a href="/">Student Resources</a>
                             </li>
-                            <li className="text-white hover:text-indigo-200">
+                            <li className="text-white font-medium hover:text-indigo-200">
                                 <a href="/">About US</a>
                             </li>
-                            <li className="text-white hover:text-indigo-200">
+                            <li className="text-white font-medium hover:text-indigo-200">
                                 <a href="/">Contact US</a>
                             </li>
                         </ul>
