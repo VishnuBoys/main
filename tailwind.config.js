@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'wide-student-bg' : "url('../src/images/wide-student-bg.jpg')",
+        'class-bg': "url('../src/images/class-bg.jpg')"
+      },
       colors: {
         'custom-orange' : '#ffa900', 
       },
