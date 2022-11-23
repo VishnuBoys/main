@@ -1,7 +1,11 @@
 import './App.css';
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Carousel from "./components/Carousel"
+import CTA from "./components/CTA";
+import Footer from "./components/Footer"
+import Footer2 from "./components/Footer2"
+
+
 
 function App() {
   return (
@@ -9,8 +13,8 @@ function App() {
     <div>
         <Navbar/>
         <Hero/>
-        <Carousel/>
-        
+        <CTA/>
+        <Footer2/>
     </div>
               
   
