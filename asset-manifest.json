@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/main/static/css/main.a745ce22.css",
-    "main.js": "/main/static/js/main.fbbf17df.js",
-    "static/media/wide-student-bg.jpg": "/main/static/media/wide-student-bg.c3011fd9dc1dabd5a2a9.jpg",
+    "main.css": "/main/static/css/main.f1da3a51.css",
+    "main.js": "/main/static/js/main.26ae4ea0.js",
+    "static/media/true-logo.jpg": "/main/static/media/true-logo.400642c84fc562d8f497.jpg",
+    "static/media/puja.jpg": "/main/static/media/puja.f24d0e9dacda0e168c48.jpg",
     "index.html": "/main/index.html",
-    "main.a745ce22.css.map": "/main/static/css/main.a745ce22.css.map",
-    "main.fbbf17df.js.map": "/main/static/js/main.fbbf17df.js.map"
+    "main.f1da3a51.css.map": "/main/static/css/main.f1da3a51.css.map",
+    "main.26ae4ea0.js.map": "/main/static/js/main.26ae4ea0.js.map"
   },
   "entrypoints": [
-    "static/css/main.a745ce22.css",
-    "static/js/main.fbbf17df.js"
+    "static/css/main.f1da3a51.css",
+    "static/js/main.26ae4ea0.js"
   ]
 }
