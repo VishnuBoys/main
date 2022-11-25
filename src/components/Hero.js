@@ -8,7 +8,7 @@ export default function Hero() {
     <div className="isolate bg-white">
       <main>
         <div className="relative px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl pt-20 pb-32 sm:pt-28 sm:pb-25">
+          <div className="mx-auto max-w-3xl pt-20 pb-32 sm:pt-28 sm:pb-30">
             <div>
               <div>
                 <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
