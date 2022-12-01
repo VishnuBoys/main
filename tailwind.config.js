@@ -9,7 +9,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'wide-student-bg' : "url('../src/images/wide-student-bg.jpg')",
-        'class-bg': "url('../src/images/class-bg.jpg')"
+        'class-bg': "url('../src/images/class-bg.jpg')",
+        'lord-vishnu': "url('../src/images/lord-vishnu.png')"
       },
       colors: {
         'custom-orange' : '#ffa900', 

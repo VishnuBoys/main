@@ -15,7 +15,7 @@ import puja from "../images/puja.jpg"
 
             <div class="mt-8 lg:w-1/4 lg:mt-0 lg:px-6">
                 <div>
-                    <h3 class="text-yellow-500 capitalize">Graduation Ceremony</h3>
+                    <h3 class="text-yellow-500 text-lg capitalize">Graduation Ceremony</h3>
 
                     <a href="#" class="block mt-2 font-medium text-gray-700 hover:underline hover:text-gray-500">
                         Look at the honors granted!
@@ -25,7 +25,7 @@ import puja from "../images/puja.jpg"
                 <hr class="my-6 border-gray-200"/>
 
                 <div>
-                    <h3 class="text-yellow-500 capitalize">Sports Day</h3>
+                    <h3 class="text-yellow-500 text-lg capitalize">Sports Day</h3>
 
                     <a href="#" class="block mt-2 font-medium text-gray-700 hover:underline hover:text-gray-500 dark:text-gray-400 ">
                         See upcoming sports day for 2023.
@@ -35,7 +35,7 @@ import puja from "../images/puja.jpg"
                 <hr class="my-6 border-gray-200"/>
 
                 <div>
-                    <h3 class="text-yellow-500 capitalize">Puja & Divali Celebration</h3>
+                    <h3 class="text-yellow-500 text-lg capitalize">Puja & Divali Celebration</h3>
 
                     <a href="#" class="block mt-2 font-medium text-gray-700 hover:underline hover:text-gray-500">
                     Join us for our termly puja session.
@@ -45,7 +45,7 @@ import puja from "../images/puja.jpg"
                 <hr class="my-6 border-gray-200"/>
 
                 <div>
-                    <h3 class="text-yellow-500 capitalize">PTA Meeting</h3>
+                    <h3 class="text-yellow-500 text-lg capitalize">PTA Meeting</h3>
 
                     <a href="#" class="block mt-2 font-medium text-gray-700 hover:underline hover:text-gray-500">
                     Please attend our extremely important PTA. 

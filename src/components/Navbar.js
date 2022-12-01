@@ -68,10 +68,14 @@ export default function NavBar() {
                             <li className="text-white font-medium hover:text-indigo-200">
                                 <a href="/">Contact US</a>
                             </li>
+                            <li className="text-white font-medium hover:text-indigo-200">
+                                <a href="/">FAQ</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </nav>
+    
     );
 }
