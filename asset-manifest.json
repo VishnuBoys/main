@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/main/static/css/main.e0a3a10e.css",
-    "main.js": "/main/static/js/main.f3d80d03.js",
+    "main.css": "/main/static/css/main.f7e0be08.css",
+    "main.js": "/main/static/js/main.7780d5e0.js",
     "static/media/true-logo.jpg": "/main/static/media/true-logo.400642c84fc562d8f497.jpg",
     "static/media/puja.jpg": "/main/static/media/puja.f24d0e9dacda0e168c48.jpg",
+    "static/media/lord-vishnu.png": "/main/static/media/lord-vishnu.cfb9870416aa3bbebf84.png",
     "index.html": "/main/index.html",
-    "main.e0a3a10e.css.map": "/main/static/css/main.e0a3a10e.css.map",
-    "main.f3d80d03.js.map": "/main/static/js/main.f3d80d03.js.map"
+    "main.f7e0be08.css.map": "/main/static/css/main.f7e0be08.css.map",
+    "main.7780d5e0.js.map": "/main/static/js/main.7780d5e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0a3a10e.css",
-    "static/js/main.f3d80d03.js"
+    "static/css/main.f7e0be08.css",
+    "static/js/main.7780d5e0.js"
   ]
 }
