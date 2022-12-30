@@ -16,7 +16,7 @@ export default function FAQ() {
                     </div>
     
                     <div>
-                        <h1 class="text-xl font-semibold text-gray-700 dark:text-white">What can i expect at my first consultation?</h1>
+                        <h1 class="text-xl font-semibold text-gray-700 dark:text-white">Where can I purchase school ties and pins?</h1>
     
                         <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis.
@@ -32,7 +32,7 @@ export default function FAQ() {
                     </div>
     
                     <div>
-                        <h1 class="text-xl font-semibold text-gray-700 dark:text-white">What are your opening house?</h1>
+                        <h1 class="text-xl font-semibold text-gray-700 dark:text-white">Where can I purchase school text books?</h1>
     
                         <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis.
@@ -48,7 +48,7 @@ export default function FAQ() {
                     </div>
     
                     <div>
-                        <h1 class="text-xl font-semibold text-gray-700 dark:text-white">Do i need a referral?</h1>
+                        <h1 class="text-xl font-semibold text-gray-700 dark:text-white">Where can I purchase school uniforms?</h1>
     
                         <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis.
@@ -64,7 +64,7 @@ export default function FAQ() {
                     </div>
     
                     <div>
-                        <h1 class="text-xl font-semibold text-gray-700 dark:text-white">Is the cost of the appoinment covered by private health insurance?</h1>
+                        <h1 class="text-xl font-semibold text-gray-700 dark:text-white">How can I contact a teacher?</h1>
     
                         <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis.
@@ -80,7 +80,7 @@ export default function FAQ() {
                     </div>
     
                     <div>
-                        <h1 class="text-xl font-semibold text-gray-700 dark:text-white">What is your cancellation policy?</h1>
+                        <h1 class="text-xl font-semibold text-gray-700 dark:text-white">How do I get a transfer out of/into your school?</h1>
     
                         <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis.
@@ -96,7 +96,7 @@ export default function FAQ() {
                     </div>
     
                     <div>
-                        <h1 class="text-xl font-semibold text-gray-700 dark:text-white">What are the parking and public transport options?</h1>
+                        <h1 class="text-xl font-semibold text-gray-700 dark:text-white">Does your school offer form 6?</h1>
     
                         <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis.
