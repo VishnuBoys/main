@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/main/static/css/main.f7e0be08.css",
-    "main.js": "/main/static/js/main.7780d5e0.js",
+    "main.css": "/main/static/css/main.c553337b.css",
+    "main.js": "/main/static/js/main.bad2ff21.js",
+    "static/media/student-bg-opaque.png": "/main/static/media/student-bg-opaque.152485a169edc3fecc47.png",
     "static/media/true-logo.jpg": "/main/static/media/true-logo.400642c84fc562d8f497.jpg",
+    "static/media/class-bg.jpg": "/main/static/media/class-bg.179494025155ac974115.jpg",
     "static/media/puja.jpg": "/main/static/media/puja.f24d0e9dacda0e168c48.jpg",
-    "static/media/lord-vishnu.png": "/main/static/media/lord-vishnu.cfb9870416aa3bbebf84.png",
     "index.html": "/main/index.html",
-    "main.f7e0be08.css.map": "/main/static/css/main.f7e0be08.css.map",
-    "main.7780d5e0.js.map": "/main/static/js/main.7780d5e0.js.map"
+    "main.c553337b.css.map": "/main/static/css/main.c553337b.css.map",
+    "main.bad2ff21.js.map": "/main/static/js/main.bad2ff21.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7e0be08.css",
-    "static/js/main.7780d5e0.js"
+    "static/css/main.c553337b.css",
+    "static/js/main.bad2ff21.js"
   ]
 }
