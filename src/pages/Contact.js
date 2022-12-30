@@ -2,50 +2,59 @@ import Footer from "../components/Footer.js"
 
 export default function Contact() {
     return(
-       <section className="py-6 dark:bg-gray-800 dark:text-gray-50">
-	<div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
-		<div className="py-6 md:py-0 md:px-6">
-			<h1 className="text-4xl font-bold">Get in touch</h1>
-			<p className="pt-2 pb-4">Fill in the form to start a conversation</p>
-			<div className="space-y-4">
-				<p className="flex items-center">
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5 mr-2 sm:mr-6">
-						<path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd"></path>
-					</svg>
-					<span>Fake address, 9999 City</span>
-				</p>
-				<p className="flex items-center">
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5 mr-2 sm:mr-6">
-						<path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
-					</svg>
-					<span>123456789</span>
-				</p>
-				<p className="flex items-center">
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5 mr-2 sm:mr-6">
-						<path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
-						<path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
-					</svg>
-					<span>contact@business.com</span>
-				</p>
-			</div>
-		</div>
-		<form novalidate="" className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
-			<label className="block">
-				<span className="mb-1">Full name</span>
-				<input type="text" placeholder="Leroy Jenkins" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800" />
-			</label>
-			<label className="block">
-				<span className="mb-1">Email address</span>
-				<input type="email" placeholder="leroy@jenkins.com" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800" />
-			</label>
-			<label className="block">
-				<span className="mb-1">Message</span>
-				<textarea rows="3" className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800"></textarea>
-			</label>
-			<button type="button" className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 dark:bg-violet-400 dark:text-gray-900 focus:ring-violet-400 hover:ring-violet-400">Submit</button>
-		</form>
-	</div>
-</section>
+        <section class="min-h-screen bg-cover  bg-class-bg">
+        <div class="flex flex-col min-h-screen bg-black/60" >
+            <div class="container flex flex-col flex-1 px-6 py-12 mx-auto">
+                <div class="flex-1 lg:flex lg:items-center lg:-mx-6">
+                    <div class="text-white lg:w-1/2 lg:mx-6">
+                        <h1 class="text-3xl font-semibold capitalize lg:text-4xl">Get in Contact with us</h1>
+    
+                        <p class="max-w-xl mt-6">
+                            To contact us please use the form or email us directly at: <b>vishnuboys@gmail.com</b>.
+                            Please allow 1-2 business days for a response on initial inquiries.
+                        </p>
+    
+                        <button class="px-8 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-amber-600 rounded-md hover:bg-amber-500 focus:outline-none focus:ring focus:ring-amber-400 focus:ring-opacity-50">
+                            get in touch
+                        </button>
+    
+                    </div>
+    
+                    <div class="mt-8 lg:w-1/2 lg:mx-6">
+                        <div class="w-full px-8 py-10 mx-auto overflow-hidden bg-white shadow-2xl rounded-xl dark:bg-gray-900 lg:max-w-xl">
+                            <h1 class="text-2xl font-medium text-gray-700 dark:text-gray-200">Contact Form</h1>
+    
+                            <p class="mt-4 text-gray-500 dark:text-gray-400">
+                                Ask us everything, we would love
+                                to hear from you
+                            </p>
+    
+                            <form class="mt-6">
+                                <div class="flex-1">
+                                    <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Full Name</label>
+                                    <input type="text" placeholder="John Doe" class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-amber-400 focus:ring-amber-300 focus:ring-opacity-40 dark:focus:border-amber-300 focus:outline-none focus:ring" />
+                                </div>
+    
+                                <div class="flex-1 mt-6">
+                                    <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Email address</label>
+                                    <input type="email" placeholder="johndoe@example.com" class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-amber-400 focus:ring-amber-300 focus:ring-opacity-40 dark:focus:border-amber-300 focus:outline-none focus:ring" />
+                                </div>
+    
+                                <div class="w-full mt-6">
+                                    <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Message</label>
+                                    <textarea class="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-amber-400 focus:ring-amber-300 focus:ring-opacity-40 dark:focus:border-amber-300 focus:outline-none focus:ring" placeholder="Message"></textarea>
+                                </div>
+    
+                                <button class="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-amber-600 rounded-md hover:bg-amber-500 focus:outline-none focus:ring focus:ring-amber-400 focus:ring-opacity-50">
+                                    get in touch
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     )
 

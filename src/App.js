@@ -23,7 +23,7 @@ function App() {
         <Route exact path='/'></Route>
         <Route exact path='/contact' element={< Contact />}></Route>
       </Routes>
-      <Footer2/>       
+      <Footer2/>   
     </div>      
   
 );
