@@ -1,3 +1,10 @@
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+    NavLink
+  } from 'react-router-dom';
+import Contact from "../pages/Contact" 
 import { useState } from "react";
 
 export default function NavBar() {
@@ -57,20 +64,23 @@ export default function NavBar() {
                     >
                         <ul className="items-center justify-center space-y-16 md:flex md:space-x-12 md:space-y-0">
                             <li className="text-white font-medium hover:text-indigo-200">
-                                <a href="/">Home</a>
+                                <NavLink to="/home">Home</NavLink>
                             </li>
                             <li className="text-white font-medium hover:text-indigo-200">
-                                <a href="/">Student Resources</a>
+                                <NavLink to="/">Student Resources</NavLink>
                             </li>
                             <li className="text-white font-medium hover:text-indigo-200">
                                 <a href="/">About US</a>
                             </li>
                             <li className="text-white font-medium hover:text-indigo-200">
-                                <a href="/">Contact US</a>
+                                <NavLink to="/contact">Contact US</NavLink>
                             </li>
                             <li className="text-white font-medium hover:text-indigo-200">
                                 <a href="/">FAQ</a>
                             </li>
+                           
+                            
+                            
                         </ul>
                     </div>
                 </div>

@@ -6,7 +6,7 @@ import puja from "../images/puja.jpg"
         <section class="bg-slate-100">
 
     <div class="container px-6 py-10 mx-auto">
-        <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl pb-20 text-amber-500">Recent Events & Upcoming Events</h1>
+        <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl pb-20 text-amber-500">Recent Updates & Upcoming Events</h1>
         <div class="lg:flex lg:-mx-6">
             <div class="lg:w-3/4 lg:px-6">
                 <img class="object-cover object-center w-full h-80 xl:h-[28rem] rounded-xl" src={puja} alt=""/>

@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
+const plugin = require('tailwindcss/plugin')
+
 const colors = require('tailwindcss/colors')
 module.exports = {
   content: [
@@ -8,14 +10,17 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'wide-student-bg' : "url('../src/images/wide-student-bg.jpg')",
         'class-bg': "url('../src/images/class-bg.jpg')",
-        'lord-vishnu': "url('../src/images/lord-vishnu.png')"
+        'lord-vishnu': "url('../src/images/lord-vishnu.png')",
+        'student-bg-o': "url('../src/images/student-bg-opaque.png')",
+        'wide-student-bg': "url('../src/images/wide-student-bg.jpg')"
       },
       colors: {
         'custom-orange' : '#ffa900', 
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms')
+  ],
 }

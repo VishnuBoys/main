@@ -1,6 +1,6 @@
 export default function Footer2() {
     return (
-        <section class="bg-white">
+        <section class="bg-grey-100">
     <div class="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
         <div class="flex justify-center mt-8 space-x-6">
             <a href="#" class="text-gray-400 hover:text-gray-500">
@@ -18,7 +18,7 @@ export default function Footer2() {
         </div>
         <p class="mt-8 text-base leading-6 text-center text-gray-400">645-7506</p>
         <p class="mt-8 text-base leading-6 text-center text-gray-400">
-            © 2022 Vishnu Boys Hindu College. All rights reserved.
+            © 2022 Vishnu Boys Hindu College. All rights reserved. <br/> <br/>
         </p>
     </div>
 </section>
