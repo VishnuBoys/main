@@ -76,7 +76,7 @@ export default function NavBar() {
                                 <NavLink to="/contact">Contact US</NavLink>
                             </li>
                             <li className="text-white font-medium hover:text-indigo-200">
-                                <a href="/">FAQ</a>
+                                <a href="/faq">FAQ</a>
                             </li>
                            
                             

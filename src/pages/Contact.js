@@ -11,8 +11,9 @@ export default function Contact() {
     
                         <p class="max-w-xl mt-6">
                             To contact us please use the form or email us directly at: <b>vishnuboys@gmail.com</b>.
-                            Please allow 1-2 business days for a response on initial inquiries.
                         </p>
+                        <br/>
+                        <p>Please allow 1-2 business days for a response on initial inquiries.</p>
     
                         <button class="px-8 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-amber-600 rounded-md hover:bg-amber-500 focus:outline-none focus:ring focus:ring-amber-400 focus:ring-opacity-50">
                             get in touch
