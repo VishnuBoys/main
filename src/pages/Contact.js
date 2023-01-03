@@ -10,7 +10,8 @@ export default function Contact() {
                         <h1 class="text-3xl font-semibold capitalize lg:text-4xl">Get in Contact with us</h1>
     
                         <p class="max-w-xl mt-6">
-                            To contact us please use the form or email us directly at: <b>vishnuboys@gmail.com</b>.
+                            To contact us please use the form or email us at: <b>vishnuboys@gmail.com</b><br/>
+                            You can also contact our phone number : <b>123-456-789</b>
                         </p>
                         <br/>
                         <p>Please allow 1-2 business days for a response on initial inquiries.</p>

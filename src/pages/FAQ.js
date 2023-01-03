@@ -1,111 +1,73 @@
+import {Disclosure} from '@headlessui/react'
+
 export default function FAQ() {
 
 
     return (
 
-        <section class="bg-white dark:bg-gray-900">
-        <div class="container px-6 py-12 mx-auto">
-           <h1 class="text-3xl font-semibold text-center text-gray-800 lg:text-4xl dark:text-white">Frequently asked questions</h1>
-    
-            <div class="grid grid-cols-1 gap-8 mt-8 lg:mt-16 md:grid-cols-2 xl:grid-cols-3">
-                <div>
-                    <div class="inline-block p-3 text-white bg-amber-600 rounded-lg">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
+        <section class="relative pt-24 pb-28 bg-blueGray-50 overflow-hidden">
+        <img class="absolute bottom-0 left-1/2 transform -translate-x-1/2" src="flaro-assets/images/faqs/gradient.svg" alt=""/>
+        <div class="relative z-10 container px-4 mx-auto">
+          <div class="md:max-w-4xl mx-auto">
+            <p class="mb-7 text-sm text-amber-600 text-center font-semibold uppercase tracking-px">Have any questions?</p>
+            <h2 class="mb-16 text-6xl md:text-8xl xl:text-10xl text-center font-bold font-heading tracking-px-n leading-none">Frequently Asked Questions</h2>
+            <div class="mb-11 flex flex-wrap -m-1">
+              <div class="w-full p-1">
+                  <div class="py-7 px-8 bg-white bg-opacity-60 border-2 border-amber-600 rounded-2xl shadow-10xl">
+                    <div class="flex flex-wrap justify-between -m-2">
+                      <div class="flex-1 p-2">
+                        <h3 class="mb-4 text-lg font-semibold leading-normal">Where can I buy School Ties, Pins, Bhajan Book, Exam Pads and Homework Books?</h3>
+                        <p class="text-gray-600 font-medium">These are all sold at the schools office. Check Student Resources page for their prices!</p>
+                      </div>
                     </div>
-    
-                    <div>
-                        <h1 class="text-xl font-semibold text-gray-700 dark:text-white">Where can I purchase school ties and pins?</h1>
-    
-                        <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis.
-                        </p>
+                  </div>
+                  
+                  
+              </div>
+              <div class="w-full p-1">
+                
+              <div class="py-7 px-8 bg-white bg-opacity-60 border-2 border-amber-600 rounded-2xl shadow-10xl">
+                    <div class="flex flex-wrap justify-between -m-2">
+                      <div class="flex-1 p-2">
+                        <h3 class="mb-4 text-lg font-semibold leading-normal">Where can I purchase school textbooks?</h3>
+                        <p class="text-gray-600 font-medium">Lorem ipsum dolor sit amet, to the consectr adipiscing elit. Volutpat tempor to the condi mentum vitae vel purus.</p>
+                      </div>
                     </div>
-                </div>
-    
-                <div>
-                    <div class="inline-block p-3 text-white bg-amber-600 rounded-lg">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
+                  </div>
+                
+              </div>
+              <div class="w-full p-1">
+                
+              <div class="py-7 px-8 bg-white bg-opacity-60 border-2 border-amber-600 rounded-2xl shadow-10xl">
+                    <div class="flex flex-wrap justify-between -m-2">
+                      <div class="flex-1 p-2">
+                        <h3 class="mb-4 text-lg font-semibold leading-normal">Does your school offer Form 6?</h3>
+                        <p class="text-gray-600 font-medium">Lorem ipsum dolor sit amet, to the consectr adipiscing elit. Volutpat tempor to the condi mentum vitae vel purus.</p>
+                      </div>
                     </div>
-    
-                    <div>
-                        <h1 class="text-xl font-semibold text-gray-700 dark:text-white">Where can I purchase school text books?</h1>
-    
-                        <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis.
-                        </p>
+                  </div>
+                
+              </div>
+              <div class="w-full p-1">
+                
+                 <div class="py-7 px-8 bg-white bg-opacity-60 border-2 border-amber-600 rounded-2xl shadow-10xl">
+                    <div class="flex flex-wrap justify-between -m-2">
+                      <div class="flex-1 p-2">
+                        <h3 class="mb-4 text-lg font-semibold leading-normal">How can I get in contact with a Teacher?</h3>
+                        <p class="text-gray-600 font-medium">Lorem ipsum dolor sit amet, to the consectr adipiscing elit. Volutpat tempor to the condi mentum vitae vel purus.</p>
+                      </div>
                     </div>
-                </div>
-    
-                <div>
-                    <div class="inline-block p-3 text-white bg-amber-600 rounded-lg">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                    </div>
-    
-                    <div>
-                        <h1 class="text-xl font-semibold text-gray-700 dark:text-white">Where can I purchase school uniforms?</h1>
-    
-                        <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis.
-                        </p>
-                    </div>
-                </div>
-    
-                <div>
-                    <div class="inline-block p-3 text-white bg-amber-600 rounded-lg">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                    </div>
-    
-                    <div>
-                        <h1 class="text-xl font-semibold text-gray-700 dark:text-white">How can I contact a teacher?</h1>
-    
-                        <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis.
-                        </p>
-                    </div>
-                </div>
-    
-                <div>
-                    <div class="inline-block p-3 text-white bg-amber-600 rounded-lg">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                    </div>
-    
-                    <div>
-                        <h1 class="text-xl font-semibold text-gray-700 dark:text-white">How do I get a transfer out of/into your school?</h1>
-    
-                        <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis.
-                        </p>
-                    </div>
-                </div>
-    
-                <div>
-                    <div class="inline-block p-3 text-white bg-amber-600 rounded-lg">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                    </div>
-    
-                    <div>
-                        <h1 class="text-xl font-semibold text-gray-700 dark:text-white">Does your school offer form 6?</h1>
-    
-                        <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis.
-                        </p>
-                    </div>
-                </div>
+                  </div>
+                
+              </div>
             </div>
+            <p class="text-gray-600 text-center font-medium">
+              <span>Still have any questions?</span> <br/>
+              <a class="font-semibold text-amber-600 hover:text-amber-700" href="#">Contact us!</a>
+            </p>
+          </div>
         </div>
-    </section>
+      </section>
     )
 
 

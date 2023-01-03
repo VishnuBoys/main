@@ -70,13 +70,13 @@ export default function NavBar() {
                                 <NavLink to="/">Student Resources</NavLink>
                             </li>
                             <li className="text-white font-medium hover:text-indigo-200">
-                                <a href="/">About US</a>
+                                <a href="/about">About US</a>
                             </li>
                             <li className="text-white font-medium hover:text-indigo-200">
                                 <NavLink to="/contact">Contact US</NavLink>
                             </li>
                             <li className="text-white font-medium hover:text-indigo-200">
-                                <a href="/faq">FAQ</a>
+                                <NavLink to="/faq">FAQ</NavLink>
                             </li>
                            
                             

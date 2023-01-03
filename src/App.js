@@ -7,7 +7,9 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home"
 import Contact from "./pages/Contact"
 import Footer2 from "./components/Footer2"
+import Footer from "./components/Footer"
 import FAQ from "./pages/FAQ"
+import About from "./pages/About"
 
 
 
@@ -21,10 +23,11 @@ function App() {
       <Navbar/>
       <Routes>
         <Route exact path='/home' element={<Home />}></Route>
-        <Route exact path='/faq' element={<FAQ/>}></Route>
+        <Route exact path='/about' element={<About />}></Route>
         <Route exact path='/contact' element={< Contact />}></Route>
+        <Route exact path='/faq' element={<FAQ/>}></Route>
       </Routes>
-      <Footer2/>   
+      <Footer/>   
     </div>      
   
 );
