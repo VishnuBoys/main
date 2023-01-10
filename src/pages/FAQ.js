@@ -63,7 +63,7 @@ export default function FAQ() {
             </div>
             <p class="text-gray-600 text-center font-medium">
               <span>Still have any questions?</span> <br/>
-              <a class="font-semibold text-amber-600 hover:text-amber-700" href="#">Contact us!</a>
+              <a class="font-semibold text-amber-600 hover:text-amber-700" href="/contact">Contact us!</a>
             </p>
           </div>
         </div>

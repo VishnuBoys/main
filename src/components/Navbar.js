@@ -67,7 +67,7 @@ export default function NavBar() {
                                 <NavLink to="/home">Home</NavLink>
                             </li>
                             <li className="text-white font-medium hover:text-indigo-200">
-                                <NavLink to="/">Student Resources</NavLink>
+                                <NavLink to="/curriculum">Curriculum</NavLink>
                             </li>
                             <li className="text-white font-medium hover:text-indigo-200">
                                 <a href="/about">About US</a>

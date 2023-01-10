@@ -2,6 +2,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component"
 
 
 
+
 export default function Hero() {
 
 
@@ -11,8 +12,8 @@ export default function Hero() {
     <div className="bg-student-bg-o bg-cover bg-no-repeat">
       <main>
         <div className="relative px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl pt-20 pb-40 sm:pt-28 sm:pb-30">
-            <div>
+          <div className="mx-auto max-w-4xl pt-20 pb-40 sm:pt-28 sm:pb-30">
+            <div className="pt-20">
               <div>
                 <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
                   Welcome to <br/> Vishnu Boys' Hindu College
@@ -66,8 +67,56 @@ export default function Hero() {
         </div>
       </div>
     </div>
+  
+
+  
+    <div className="  px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
+        <div className="p-8 bg-white border rounded shadow-sm">
+          <a
+            href="/"
+            aria-label="Article"
+            title="Mission Statement"
+            className="inline-block mb-3 text-2xl font-bold leading-5 text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
+          >
+            Mission Statement
+          </a>
+          <p className="mb-5 text-gray-700">
+            To initiate, implement and institutionalize programmes that will develop creative, critical thinking and cultred citizens who will harness the full potential for their multiple intelligences in contributing positively to community and country.
+          </p>
+        </div>
+        <div className="p-8 bg-white border rounded shadow-sm">
+          <a
+            href="/"
+            aria-label="Article"
+            title="Vision Statement"
+            className="inline-block mb-3 text-2xl font-bold leading-5 text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
+          >
+            Vision Statement
+          </a>
+          <p className="mb-5 text-gray-700">
+            To Become a Centre of Excellence which promotes the Holistic Development of all Learners.
+          </p>
+        </div>
+        <div className="p-8 bg-white border rounded shadow-sm">
+          <a
+            href="/"
+            aria-label="Article"
+            title="School Motto"
+            className="inline-block mb-3 text-2xl font-bold leading-5 text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
+          >
+            School Motto
+          </a>
+          <p className="mb-5 text-gray-700">
+            Tamaso Maa Jyotir Gamaya<br/>
+            O Lord, From Darkness Lead us Unto Light.<br/>
+            The school motto is a request to the Divine to free everyone from all the base qualities and animalistic tendencies. It is an appeal to the Divine to bless us with the noble qualities and supreme enlightentment so taht we may become lights in the world to dispel the spiritual ignorance which leads to destruction.
+          </p>
+        </div>
+      </div>
     </div>
-     
+    
+    </div>
     
   )
 }

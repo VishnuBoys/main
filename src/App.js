@@ -10,6 +10,7 @@ import Footer2 from "./components/Footer2"
 import Footer from "./components/Footer"
 import FAQ from "./pages/FAQ"
 import About from "./pages/About"
+import Curriculum from "./pages/Curriculum"
 
 
 
@@ -23,6 +24,7 @@ function App() {
       <Navbar/>
       <Routes>
         <Route exact path='/home' element={<Home />}></Route>
+        <Route exact path='/curriculum' element={<Curriculum />}></Route>
         <Route exact path='/about' element={<About />}></Route>
         <Route exact path='/contact' element={< Contact />}></Route>
         <Route exact path='/faq' element={<FAQ/>}></Route>
